@@ -1,24 +1,24 @@
-[01:54:30] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:54:31] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:54:31] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:54:31] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:54:31] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:54:31] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:54:31] [main/INFO]: Reloading ResourceManager: Default
-[01:54:32] [Worker-Main-4/INFO]: Loaded 7 recipes
-[01:54:33] [Worker-Main-4/INFO]: Loaded 927 advancements
-[01:54:35] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[01:54:35] [Server thread/INFO]: Loading properties
-[01:54:35] [Server thread/INFO]: Default game type: SURVIVAL
-[01:54:35] [Server thread/INFO]: Generating keypair
-[01:54:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:54:35] [Server thread/INFO]: Using epoll channel type
-[01:54:35] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[01:54:35] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[01:54:35] [Server thread/WARN]: Perhaps a server is already running on that port?
-[01:54:35] [Server thread/INFO]: Stopping server
-[01:54:35] [Server thread/INFO]: Saving worlds
-[01:54:35] [Server thread/ERROR]: Exception stopping the server
+[02:12:46] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:12:47] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:12:47] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:12:47] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:12:47] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:12:47] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:12:47] [main/INFO]: Reloading ResourceManager: Default
+[02:12:48] [Worker-Main-4/INFO]: Loaded 7 recipes
+[02:12:49] [Worker-Main-4/INFO]: Loaded 927 advancements
+[02:12:50] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[02:12:50] [Server thread/INFO]: Loading properties
+[02:12:50] [Server thread/INFO]: Default game type: SURVIVAL
+[02:12:50] [Server thread/INFO]: Generating keypair
+[02:12:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:12:51] [Server thread/INFO]: Using epoll channel type
+[02:12:51] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[02:12:51] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[02:12:51] [Server thread/WARN]: Perhaps a server is already running on that port?
+[02:12:51] [Server thread/INFO]: Stopping server
+[02:12:51] [Server thread/INFO]: Saving worlds
+[02:12:51] [Server thread/ERROR]: Exception stopping the server
 java.lang.NullPointerException: null
 	at net.minecraft.server.MinecraftServer.a(SourceFile:572) ~[vanilla.jar:?]
 	at net.minecraft.server.MinecraftServer.t(SourceFile:599) ~[vanilla.jar:?]
